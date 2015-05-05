@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun Example_report.JUnit_example.Calculator.sum" project="JUnit_example" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="sum" classname="Example_report.JUnit_example.Calculator" time="17.013"/>
+</testrun>
