@@ -8,3 +8,15 @@
 2015-05-05 13:59:33,727 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\main\resources
 2015-05-05 13:59:33,727 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-05-05 13:59:33,728 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\test\resources
+2015-05-05 14:11:33,875 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:11:33,877 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\main\resources
+2015-05-05 14:11:33,879 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:11:33,879 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\test\resources
+2015-05-05 14:12:48,129 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:12:48,130 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\main\resources
+2015-05-05 14:12:48,131 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:12:48,131 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\test\resources
+2015-05-05 14:12:49,156 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:12:49,157 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\main\resources
+2015-05-05 14:12:49,160 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-05-05 14:12:49,160 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GIT\Appium\JUnit_example\src\test\resources
