@@ -5,4 +5,8 @@
 <fullyQualifiedTypeName name="org.apache.commons.exec.DefaultExecutor"/>
 <fullyQualifiedTypeName name="org.apache.commons.exec.CommandLine"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
