@@ -2,9 +2,7 @@ package Example_report.JUnit_example;
 
 import java.net.URL;
 
-import org.apache.commons.exec.CommandLine;
-import org.apache.commons.exec.DefaultExecuteResultHandler;
-import org.apache.commons.exec.DefaultExecutor;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
