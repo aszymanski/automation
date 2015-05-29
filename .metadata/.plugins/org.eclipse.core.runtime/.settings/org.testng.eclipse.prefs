@@ -1,0 +1,4 @@
+Air_Canada.disabledListeners=true
+Air_Canada.outdir=/test-output
+Air_Canada.useProjectJar=false
+eclipse.preferences.version=1

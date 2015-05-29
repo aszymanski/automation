@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="General Suite">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+
+
+
+  <test name="Test No 1 - Something">
+  <groups>
+  	<run>
+  	<inculde name = "banan" />
+  	</run>
+  	</groups>
+    <classes>
+       <class name="testNG.Air_Canada.More_tab_content" />
+    </classes>
+  </test>
+  <test name="General Smoke">
+  <groups>
+  	<run>
+  	<inculde name = "banan" />
+  	</run>
+  	</groups>
+    <classes>
+       <class name="testNG.Air_Canada.Test_Case_1" />
+    </classes>
+  </test>
+  
+  
+</suite> 
+

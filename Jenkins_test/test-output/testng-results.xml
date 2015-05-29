@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5364" started-at="2015-05-19T09:10:53Z" finished-at="2015-05-19T09:10:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5364" started-at="2015-05-19T09:10:53Z" finished-at="2015-05-19T09:10:58Z">
+      <class name="testNG.Jenkins_test.Sample">
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:testNG.Jenkins_test.Sample@5a39699c]" name="beforMethod" is-config="true" duration-ms="5345" started-at="2015-05-19T11:10:53Z" finished-at="2015-05-19T11:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testNG.Jenkins_test.Sample@5a39699c]" name="f" duration-ms="6" started-at="2015-05-19T11:10:58Z" finished-at="2015-05-19T11:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.Jenkins_test.Sample@5a39699c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2015-05-19T11:10:58Z" finished-at="2015-05-19T11:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNG.Jenkins_test.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

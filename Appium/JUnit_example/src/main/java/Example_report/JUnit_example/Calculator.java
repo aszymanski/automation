@@ -23,20 +23,24 @@ public class Calculator
 			
 		DesiredCapabilities capabilities = new DesiredCapabilities();
     	capabilities.setCapability("automationName","Appium");
-    	capabilities.setCapability("deviceName","LG G2 Mini");
+    	//capabilities.setCapability("deviceName","LG G2 Mini");
+    	capabilities.setCapability("deviceName","myEmulator");
     	capabilities.setCapability("uid","emulator-5554");
     	//capabilities.setCapability("uid","LGD620875202e3");
     	capabilities.setCapability("platformName","Android");
-    	capabilities.setCapability("deviceReadyTimeout","35");
-    	capabilities.setCapability("androidDeviceReadyTimeout","35");
+    	capabilities.setCapability("deviceReadyTimeout","90");
+    	capabilities.setCapability("androidDeviceReadyTimeout","90");
+    	capabilities.setCapability("avdReadyTimeout","90");
     	capabilities.setCapability("version","5.0.1");
-    	capabilities.setCapability("avd","Nexus_5_API_21_x86");
+    	capabilities.setCapability("avd","myEmulator");
     	capabilities.setCapability("appPackage","com.android.calculator2");
     	capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
     	capabilities.setCapability("appWaitActivity","com.android.calculator2.Calculator");
     	capabilities.setCapability("noReset","true");
     	
     	driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+    	
+    	Thread.sleep(7000);
 	}
 	
 	@After
@@ -44,11 +48,13 @@ public class Calculator
 		driver.quit();
 	}
 	
+
+	
 	@Test
     public void sum(){
 	
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(7000);
 		} catch (InterruptedException e) {
 
 			e.printStackTrace();

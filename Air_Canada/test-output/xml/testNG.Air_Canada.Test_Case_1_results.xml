@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test No 1 - Something"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="9.327">
+  <properties />
+            <testcase name="test2" time="9.327" classname="testNG.Air_Canada.Test_Case_1">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;KN-ASZYMANSK-02&apos;, ip: &apos;10.1.81.47&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\com.AirCanadaApp.master4.apk, androidDeviceReadyTimeout=35, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=LG G2 Mini, deviceReadyTimeout=35, version=4.4.2, platform=LINUX, uid=LGD620875202e3, desired={app=D:\com.AirCanadaApp.master4.apk, androidDeviceReadyTimeout=35, uid=LGD620875202e3, noReset=false, automationName=Appium, platformName=Android, deviceName=LG G2 Mini, deviceReadyTimeout=35, version=4.4.2}, platformVersion=4.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 5856dfd0-5a9a-422f-bdd6-9e9ba4259bde"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'KN-ASZYMANSK-02', ip: '10.1.81.47', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\com.AirCanadaApp.master4.apk, androidDeviceReadyTimeout=35, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=LG G2 Mini, deviceReadyTimeout=35, version=4.4.2, platform=LINUX, uid=LGD620875202e3, desired={app=D:\com.AirCanadaApp.master4.apk, androidDeviceReadyTimeout=35, uid=LGD620875202e3, noReset=false, automationName=Appium, platformName=Android, deviceName=LG G2 Mini, deviceReadyTimeout=35, version=4.4.2}, platformVersion=4.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 5856dfd0-5a9a-422f-bdd6-9e9ba4259bde
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+  io.appium.java_client.AppiumDriver.performTouchAction(AppiumDriver.java:293)
+  io.appium.java_client.TouchAction.perform(TouchAction.java:301)
+  io.appium.java_client.AppiumDriver.swipe(AppiumDriver.java:348)
+  testNG.Air_Canada.Test_Case_1.test2(Test_Case_1.java:70)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

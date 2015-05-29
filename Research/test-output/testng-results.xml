@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sample" duration-ms="5332" started-at="2015-05-29T13:22:32Z" finished-at="2015-05-29T13:22:37Z">
+    <groups>
+    </groups>
+    <test name="test - dev2" duration-ms="354" started-at="2015-05-29T13:22:32Z" finished-at="2015-05-29T13:22:32Z">
+      <class name="Multiple_devices.Research.test">
+        <test-method status="FAIL" signature="openBroswer(java.lang.String)[pri:0, instance:Multiple_devices.Research.test@15975490]" name="openBroswer" is-config="true" duration-ms="0" started-at="2015-05-29T15:22:32Z" finished-at="2015-05-29T15:22:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'KN-ASZYMANSK-02', ip: '10.1.81.72', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'KN-ASZYMANSK-02', ip: '10.1.81.72', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at Multiple_devices.Research.device.openBroswer(device.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="SKIP" signature="sample()[pri:0, instance:Multiple_devices.Research.test@15975490]" name="sample" duration-ms="1" started-at="2015-05-29T15:22:32Z" finished-at="2015-05-29T15:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:Multiple_devices.Research.test@15975490]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-05-29T15:22:32Z" finished-at="2015-05-29T15:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Multiple_devices.Research.test -->
+    </test> <!-- test - dev2 -->
+    <test name="test - dev1" duration-ms="5332" started-at="2015-05-29T13:22:32Z" finished-at="2015-05-29T13:22:37Z">
+      <class name="Multiple_devices.Research.test">
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:Multiple_devices.Research.test@7a5d012c]" name="openBroswer" is-config="true" duration-ms="5307" started-at="2015-05-29T15:22:32Z" finished-at="2015-05-29T15:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="sample()[pri:0, instance:Multiple_devices.Research.test@7a5d012c]" name="sample" duration-ms="13" started-at="2015-05-29T15:22:37Z" finished-at="2015-05-29T15:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Multiple_devices.Research.test@7a5d012c]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2015-05-29T15:22:37Z" finished-at="2015-05-29T15:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Multiple_devices.Research.test -->
+    </test> <!-- test - dev1 -->
+  </suite> <!-- sample -->
+</testng-results>

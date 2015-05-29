@@ -1,0 +1,9 @@
+package Multiple_devices.Research;
+
+import org.testng.annotations.Test;
+
+public class device {
+  @Test
+  public void f() {
+  }
+}

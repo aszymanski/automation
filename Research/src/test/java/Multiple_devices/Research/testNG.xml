@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sample" thread-count="2" parallel="tests">
+
+  <test name="test - dev1">
+    <parameter name="device" value="dev1"/>
+    <classes>
+      <class name="Multiple_devices.Research.test"/>
+    </classes>
+  </test>
+
+  <test name="test - dev2">
+    <parameter name="device" value="dev2"/>
+    <classes>
+      <class name="Multiple_devices.Research.test"/>
+    </classes>
+  </test>
+</suite>

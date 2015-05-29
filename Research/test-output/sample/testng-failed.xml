@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [sample]" parallel="tests">
+  <parameter name="device" value="dev2"/>
+  <test name="test - dev2(failed)" parallel="tests">
+    <parameter name="device" value="dev2"/>
+    <classes>
+      <class name="Multiple_devices.Research.test">
+        <methods>
+          <include name="sample"/>
+          <include name="openBroswer"/>
+          <include name="openBroswer"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Multiple_devices.Research.test -->
+    </classes>
+  </test> <!-- test - dev2(failed) -->
+</suite> <!-- Failed suite [sample] -->

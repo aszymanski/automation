@@ -20,7 +20,7 @@ public class Calculator2
 		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
     	capabilities.setCapability("automationName","Appium");
-    	capabilities.setCapability("deviceName","LG G2 Mini");
+    	capabilities.setCapability("deviceName","Nexus_5_API_21_x86");
     	capabilities.setCapability("uid","emulator-5554");
     	//capabilities.setCapability("uid","LGD620875202e3");
     	capabilities.setCapability("platformName","Android");
@@ -42,43 +42,25 @@ public class Calculator2
 	}
 	
 	@Test
-    public void sum(){
+    public void sum() throws Exception{
 	
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-
-			e.printStackTrace();
-		}
-	
+		
+		Thread.sleep(2000);
 	
 	driver.findElement(By.id("com.android.calculator2:id/digit_1")).click();
 	
-
-		try {
 			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-
-			e.printStackTrace();
-		}	
-	
 	
 	driver.findElement(By.id("com.android.calculator2:id/op_add")).click();
 	
-		try {
+		
 			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-
-			e.printStackTrace();
-		}
+		
 	
 	driver.findElement(By.id("com.android.calculator2:id/digit_1")).click();
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			
-			e.printStackTrace();
-		}   	
+	
+		Thread.sleep(2000);
+
 	driver.findElement(By.id("com.android.calculator2:id/eq")).click();
 		
 	}
